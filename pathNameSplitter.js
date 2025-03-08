@@ -1,4 +1,4 @@
-pathName = location.pathname.split("/")[1];
+var pathName = location.pathname.split("/")[1];
 if (pathName === "directoryName" || pathName === "directoryNameSecondary") {
   var html = "<p>This is a paragraph.</p>";
   document.getElementsByClassName("output").insertAdjacentHTML("afterend",html);
